@@ -20,7 +20,7 @@ body{
     border-bottom-right-radius: 50px;
 }
 
-label,input,textarea{
+label,input{
     width: 400px;
     height: 50px;
     text-align: center;
@@ -75,13 +75,17 @@ footer{
     text-align: center;
 }
 li{
-    padding: 10px;
+    padding: 5px;
     display: inline;
     list-style: none;
 }
 
 a{
     text-decoration: none;
+}
+
+ul{padding: 3px;
+    display: inline;
 }
 
 

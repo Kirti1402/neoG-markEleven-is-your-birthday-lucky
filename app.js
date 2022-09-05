@@ -5,7 +5,7 @@ const output=document.querySelector("#output");
 
 console.log(dob);
 console.log(luckyNumber);
-var sum=0;
+// var sum=0;
 
 function clickHandler(){
 
@@ -13,10 +13,16 @@ function clickHandler(){
     dobValue=dob.value;
     luckyValue=luckyNumber.value;
     var sum=0;
-
-    if(dobValue == "" || luckyValue== "" || luckyValue<=0){
+    if(dobValue == ""  && (luckyValue== "" || luckyValue<=0)){
         output.classList.add("output-err");
-        output.innerText="Please enter valid input 🥸";  
+        output.innerText="Enter DOB and Lucky Number 🥸";  
+    }
+    else if(luckyValue== "" || luckyValue<=0){
+        output.classList.add("output-err");
+        output.innerText="Enter lucky number 🥸";    
+    }else if(dobValue == "" ){
+        output.classList.add("output-err");
+        output.innerText="Enter DOB 🥸";  
     }
     else if(dobValue !="" && luckyValue>0){
         output.classList.remove("output-err");
@@ -29,6 +35,7 @@ function clickHandler(){
 
 
 function checkLuckyNumber(){
+    var sum=0;
     dobList=dobValue.replaceAll('-','');
     console.log("Replaced all",dobList);
     console.log("adding dob value added",dobValue);
