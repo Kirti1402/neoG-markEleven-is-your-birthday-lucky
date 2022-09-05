@@ -1,43 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-body{
+body {
     font-family: 'Kaushan Script', cursive;
     margin: 0;
     padding: 0;
     background-color: #D8F8B7;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
 
 
-.heading{
+.heading {
     text-align: center;
     color: black;
-    border:4px solid black;
-    background-color:#C67ACE ;
+    border: 4px solid black;
+    background-color: #C67ACE;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 
-label,input,textarea{
+label,
+input {
     width: 400px;
     height: 50px;
     text-align: center;
     margin: 10px auto;
-    display:block;
+    display: block;
     background-color: #D8F8B7;
 }
-input{
+
+input {
     /* margin: 10px auto; */
-    border:3px solid black;
+    border: 3px solid black;
     /* width: 150px; */
     /* height: 30px; */
 }
 
-#output{
+#output {
     font-size: larger;
-    font-family:'Kaushan Script', cursive;
+    font-family: 'Kaushan Script', cursive;
     padding: 20px;
     font-weight: 600;
     border: none;
@@ -47,9 +50,9 @@ input{
     text-rendering: none;
 }
 
-.output-err{
+.output-err {
     font-size: larger;
-    font-family:'Kaushan Script', cursive;
+    font-family: 'Kaushan Script', cursive;
     color: red;
     padding: 30px;
     font-weight: 600;
@@ -59,11 +62,11 @@ input{
     resize: none;
 }
 
-.luck-num-btn{
+.luck-num-btn {
 
     display: block;
-    background-color: #C67ACE ;
-    border:none;
+    background-color: #C67ACE;
+    border: none;
     width: 100px;
     height: 50px;
     border-radius: 5px 20px 5px 20px;
@@ -71,18 +74,21 @@ input{
     /* text-align: center; */
 }
 
-footer{
+footer {
     text-align: center;
 }
-li{
-    padding: 10px;
+
+li {
+    padding: 5px;
     display: inline;
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-
-
+ul {
+    padding: 3px;
+    display: inline;
+}
