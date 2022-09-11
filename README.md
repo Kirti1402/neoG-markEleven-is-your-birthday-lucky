@@ -6,3 +6,5 @@ Created an application where its take your birthday and your lucky number to ver
 * CSS
 * JavaScript
 
+## Live Project
+[IsYourBirthdayLucky](https://isyourbirthdaylucky-mark11.netlify.app/)
