@@ -67,7 +67,7 @@ input {
 }
 
 .luck-num-btn {
-
+    cursor: pointer;
     display: block;
     background-color: var(--button-color);
     width: 100px;
